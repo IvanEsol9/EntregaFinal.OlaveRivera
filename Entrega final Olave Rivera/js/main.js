@@ -1,8 +1,3 @@
-let DateTime = luxon.DateTime;
-
-const dt = DateTime.now();
-console.log(dt);
-
 let computadoras = [];
 let gananciasTotales = 0;
 
@@ -76,8 +71,6 @@ function mostrarInformacionComputadoras() {
     }
 }
 
-
-
 function mostrarGananciasTotales() {
     let storedGananciasTotales = localStorage.getItem('gananciasTotales');
 
@@ -96,3 +89,6 @@ document.getElementById("mostrarBtn").addEventListener("click", function() {
 document.getElementById("mostrarGananciasBtn").addEventListener("click", function() {
     mostrarGananciasTotales();
 });
+
+
+

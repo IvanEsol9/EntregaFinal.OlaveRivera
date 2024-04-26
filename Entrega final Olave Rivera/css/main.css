@@ -95,3 +95,24 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
     background-color: #0056b3;
 }
+
+#lista-clientes {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+#lista-clientes li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+#lista-clientes li:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  
+#clientesContainer {
+    display: none;
+}
